@@ -1,0 +1,17 @@
+To initialize package.json
+- npm init -y (create a default package.json file)
+- npm init (it will run and ask for all the details to be edited.)
+
+In case package.json is lost/deleted
+- initialize again and manually install all the packages.
+- easier for small APIs but impossible for big projects
+
+In case node-module folder is deleted
+- npm i     //or
+- npm install
+
+package-lock.json
+- fixes the dependencies related onjects/modules
+- prevents node modules (aka packages) from updgrading unnecessarily due to other package dependency
+- contains url and integrity (hash code checksum) for all node modules (aka packages)
+- if deleted : npm i
