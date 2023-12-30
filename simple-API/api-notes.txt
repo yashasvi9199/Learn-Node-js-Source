@@ -1,0 +1,8 @@
+response.writeHead()
+
+syntax : 
+res.writeHead(<status>,'<desc>,{<ContentType>}')
+-status : this will be status code. Get list of status code here : https://restfulapi.net/http-status-codes/
+-desc : in case we wish to change the meaning of our status code. Else default will be taken
+-ContentType: is an optional parameter which contains details about data type and char set, if not provided then it takes "text/plain" as default
+
