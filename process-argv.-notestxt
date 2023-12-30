@@ -1,0 +1,17 @@
+process.argv
+- returns an array
+- first 2 elements will be fixed 
+- syntax array  : 
+    [
+        absolute path of nodejs installation directory
+        absolute path of  running file in storage/server
+    ]
+- if added some input like : 
+    node app.js <input> <input>
+returned array : 
+    [
+        nodejs directory
+        file directory
+        <input>
+        <input>
+    ]
