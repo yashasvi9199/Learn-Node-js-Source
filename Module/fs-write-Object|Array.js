@@ -1,5 +1,5 @@
 const fs = require('fs')
-const dirPath = `${__dirname}/fs_files`
+const dirPath = `/home/drone/Development/Learn-Node-js-Source/fs_files`
 const dataObject = {
     orange: 'This is an orange',
     apple: 'This is an apple',
