@@ -1,4 +1,4 @@
-const connect = require('./mongoConfig')
+const connect = require('./dbConfig')
 
 module.exports.find = async (item_obj) => {
     let con = await connect()
