@@ -1,3 +1,4 @@
 fs_files
 node_modules
 .vscode
+package-lock.json
