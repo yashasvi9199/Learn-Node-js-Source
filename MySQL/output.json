@@ -1,0 +1,55 @@
+// on search
+    [
+        {
+            "idusers": 1,
+            "name": "Yash",
+            "email": "yash@test.com",
+            "password": "testing"
+        },
+        {
+            "idusers": 2,
+            "name": "Ajay",
+            "email": "ajay@test.com",
+            "password": "test2"
+        }
+    ]
+
+// on insert
+
+    {
+        "fieldCount": 0,
+        "affectedRows": 1,
+        "insertId": 5,
+        "serverStatus": 2,
+        "warningCount": 0,
+        "message": "",
+        "protocol41": true,
+        "changedRows": 0
+    }
+
+
+// on update
+
+    {
+        "fieldCount": 0,
+        "affectedRows": 1,
+        "insertId": 0,
+        "serverStatus": 2,
+        "warningCount": 0,
+        "message": "(Rows matched: 1  Changed: 1  Warnings: 0",
+        "protocol41": true,
+        "changedRows": 1
+    }
+
+// on delete
+
+    {
+        "fieldCount": 0,
+        "affectedRows": 1,
+        "insertId": 0,
+        "serverStatus": 2,
+        "warningCount": 0,
+        "message": "",
+        "protocol41": true,
+        "changedRows": 0
+    }
